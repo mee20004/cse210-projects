@@ -17,7 +17,6 @@ public class Scripture
         }
     }
 
-    // Hides a few random words
     public void HideRandomWords(int count)
     {
         var visibleWords = Words.FindAll(w => !w.IsHidden);

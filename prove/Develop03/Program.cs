@@ -32,7 +32,7 @@ class Program
             if (input.ToLower() == "quit")
                 break;
 
-            scripture.HideRandomWords(3); // hides 3 random words each time
+            scripture.HideRandomWords(3);
         }
     }
 
